@@ -1,14 +1,15 @@
 import React from "react";
 import Left from "./Left";
+import Middle from "./Middle";
 import Right from "./Right";
 
-const SixthSection = () => {
+const SeventhSection = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto my-10">
       <hr className="border-3 border-gray-600"></hr>
 
       <h1 className="text-xl font-bold text-black my-6  flex items-center">
-        বিশ্ব
+        বিনোদন
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -26,11 +27,15 @@ const SixthSection = () => {
       </h1>
       <div className="grid grid-cols-12 gap-4">
         {/* left */}
-        <div className="col-span-5">
+        <div className="col-span-4">
           <Left />
         </div>
+        {/* middle */}
+        <div className="col-span-4">
+          <Middle />
+        </div>
         {/* right */}
-        <div className="col-span-7">
+        <div className="col-span-4">
           <Right />
         </div>
       </div>
@@ -38,4 +43,4 @@ const SixthSection = () => {
   );
 };
 
-export default SixthSection;
+export default SeventhSection;
