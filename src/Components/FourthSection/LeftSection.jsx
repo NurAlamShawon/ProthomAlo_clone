@@ -3,7 +3,7 @@ import React from "react";
 const LeftSection = () => {
   return (
     <div className=" border-r-2 border-gray-400">
-      <div className="mt-4">
+      <div className="pt-4">
         {/* name of each tab group should be unique */}
         <div className="tabs tabs-border border-none">
           <input

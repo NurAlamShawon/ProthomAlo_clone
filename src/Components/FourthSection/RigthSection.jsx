@@ -2,7 +2,7 @@ import React from "react";
 
 const RigthSection = () => {
   return (
-    <div className="grid grid-cols-9 gap-4">
+    <div className="grid grid-cols-9 gap-4 ">
       {/* col-span-6 */}
       <div className="col-span-6 pr-3 border-r-2 border-gray-400">
         <div className="relative">
