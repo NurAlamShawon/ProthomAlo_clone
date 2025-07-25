@@ -6,6 +6,7 @@ const Middle = () => {
       <img
         src="//media.prothomalo.com/prothomalo-bangla%2F2025-07-23%2Ff5riu5al%2F61310312605.jpg?rect=153%2C0%2C912%2C608&amp;w=270&amp;auto=format%2Ccompress&amp;fmt=avif"
         alt=""
+        className="w-full"
       />
       <h1 className="text-xl text-black font-bold">
         ডিমেনশিয়ায় ভুগছেন ব্রুস উইলিস, কে দেখভাল করছেন ২৫০ মিলিয়ন ডলারের

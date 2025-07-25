@@ -7,6 +7,8 @@ import FifthSection from "../Components/FifthSection/FifthSection";
 import SixthSection from "../Components/SixthSection/SixthSection";
 import SeventhSection from "../Components/SeventhSection/SeventhSection";
 import EigthSection from "../Components/EigthSection";
+import NinthSection from "../Components/NinthSection/NinthSection";
+import TenthSection from "../Components/TenthSection.jsx/TenthSection";
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <SixthSection/>
       <SeventhSection/>
       <EigthSection/>
+      <NinthSection/>
+      <TenthSection/>
     </div>
   );
 };
