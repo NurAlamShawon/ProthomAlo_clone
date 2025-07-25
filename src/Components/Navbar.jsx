@@ -1,125 +1,189 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserAlt } from '@fortawesome/free-solid-svg-icons';
-
 
 const Navbar = () => {
   return (
-    <div className="border-t-1 border-gray-400 border-b-3">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div>
-          <ul className="flex items-center">
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              সর্বশেষ
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              রাজনীতি
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              বাংলাদেশ
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              অপরাধ
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              বিশ্ব
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              বাণিজ্য
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              মতামত
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              খেলা
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              বিনোদন
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              চাকরি
-            </li>
-            <li className="text-sm text-black hover:text-blue-700 mr-4 font-semibold">
-              জীবনযাপন
-            </li>
-          </ul>
-        </div>
+    <div>
+      <div className="border-t-1 border-gray-400 border-b-2">
+        <div className="max-w-7xl mx-auto flex items-center xl:justify-between">
+          <div className="xl:px-0 px-2">
+            <ul className="flex items-center overflow-scroll xl:overflow-y-hidden xl:overflow-x-hidden w-70 xl:w-190">
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                সর্বশেষ
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                রাজনীতি
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                বাংলাদেশ
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                অপরাধ
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                বিশ্ব
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                বাণিজ্য
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                মতামত
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                খেলা
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                বিনোদন
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                চাকরি
+              </li>
+              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                জীবনযাপন
+              </li>
+            </ul>
+          </div>
 
-        <div>
-          <ul className="flex items-center">
-            <li className="text-sm flex items-center  text-gray-600 hover:text-blue-700 py-7 px-4 font-semibold  border-l-1 border-gray-400">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={3}
-                stroke="currentColor"
-                className="size-6 mr-2 font-bold"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-                />
-              </svg>
-              খুঁজুন
-            </li>
-            <li className="text-sm flex items-center text-gray-600 hover:text-blue-700  py-7 px-4 font-semibold  border-l-1 border-gray-400">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="size-6 mr-2 font-bold"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6v-3Z"
-                />
-              </svg>
-              ই-পেপার
-            </li>
-            <li className="text-sm flex items-center bg-[#fbe9e7] text-gray-600 hover:text-blue-700  py-7 px-4 font-bold  border-l-1 border-gray-400">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                className="size-6 mr-2 font-bold"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
-                />
-              </svg>
-              Eng
-            </li>
-            <li className="text-sm flex items-center text-gray-600 hover:text-blue-700 py-7 px-4 font-semibold  border-l-1 border-gray-400">
-              
-                <FontAwesomeIcon icon={faUserAlt} className="mr-2 text-xl" />
-              <span classname="pl-10">Login</span>
-            </li>
-            <li className="text-sm  text-gray-600 hover:text-blue-700 py-7 px-4 font-semibold border-r-1 border-l-1 border-gray-400">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="size-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
-            </li>
-          </ul>
+          <div>
+            <ul className="flex items-center">
+              <li className="hidden text-sm xl:flex items-center  text-gray-600 hover:text-blue-700 py-5 px-4 font-semibold  border-l-1 border-gray-400">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={3}
+                  stroke="currentColor"
+                  className="size-6 mr-2 font-bold"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                  />
+                </svg>
+                খুঁজুন
+              </li>
+              <li className="hidden text-sm xl:flex items-center text-gray-600 hover:text-blue-700  py-5 px-4 font-semibold  border-l-1 border-gray-400">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6 mr-2 font-bold"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6v-3Z"
+                  />
+                </svg>
+                ই-পেপার
+              </li>
+              <li className="text-base flex items-center bg-[#fbe9e7] text-gray-700 hover:text-blue-700  xl:py-5 py-2 px-2 xl:px-4 border-l-1 border-gray-400">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6 mr-2 font-bold"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+                  />
+                </svg>
+                Eng
+              </li>
+              <li className="hidden text-sm xl:flex items-center text-gray-600 hover:text-blue-700 py-5 px-4 font-semibold  border-l-1 border-gray-400">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  class="_8lu3j"
+                  viewBox="0 0 24 24"
+                  enable-background="new 0 0 24 24"
+                  xml:space="preserve"
+                  className="size-6 mr-2"
+                >
+                  <path
+                    fill-opacity="0.68"
+                    d="M12,12c0.904,0,1.788-0.264,2.54-0.758c0.752-0.494,1.338-1.197,1.684-2.019 c0.346-0.822,0.437-1.727,0.26-2.6c-0.176-0.873-0.612-1.675-1.251-2.304c-0.639-0.629-1.454-1.058-2.34-1.232 c-0.887-0.174-1.806-0.085-2.641,0.256C9.416,3.683,8.702,4.26,8.199,5C7.697,5.74,7.429,6.61,7.429,7.5 c0,0.591,0.118,1.176,0.348,1.722c0.23,0.546,0.566,1.042,0.991,1.46c0.425,0.418,0.928,0.749,1.483,0.976 C10.805,11.884,11.4,12,12,12z M15.2,13.125h-0.596c-0.816,0.37-1.705,0.562-2.603,0.562c-0.899,0-1.787-0.192-2.604-0.562H8.8 c-1.273,0-2.494,0.498-3.394,1.384C4.506,15.395,4,16.597,4,17.85v1.463c0,0.448,0.181,0.877,0.502,1.193 C4.824,20.822,5.26,21,5.714,21h12.571c0.455,0,0.891-0.178,1.212-0.494C19.819,20.189,20,19.76,20,19.312V17.85 c0-1.253-0.506-2.455-1.406-3.341C17.694,13.623,16.473,13.125,15.2,13.125z"
+                  ></path>
+                </svg>
+                <span classname="pl-10">Login</span>
+              </li>
+              <li className="text-sm  text-gray-600 hover:text-blue-700 xl:py-5 py-2 px-2 xl:px-4 font-semibold border-r-1 border-l-1 border-gray-400">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="max-w-7xl mx-auto xl:hidden inline " >
+        <div className="pl-4 grid grid-cols-3 gap-1 py-4 bg-[#f7f7f7]">
+          {/* first */}
+          <div className="flex items-center pr-2 border-r-1 border-gray-400">
+            <svg
+              class="XmPpY"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+              fill="none"
+              className="size-5 mr-1"
+            >
+              <path
+                d="M14.5607 19.9999L19.7607 16.6666C20.0095 16.5066 20.134 16.2844 20.134 15.9999C20.134 15.7155 20.0095 15.4933 19.7607 15.3333L14.5607 11.9999C14.294 11.8221 14.0229 11.8088 13.7473 11.9599C13.4718 12.111 13.334 12.3466 13.334 12.6666V19.3333C13.334 19.6533 13.4718 19.8888 13.7473 20.0399C14.0229 20.191 14.294 20.1777 14.5607 19.9999ZM16.0007 26.6666C14.5251 26.6666 13.1384 26.3866 11.8407 25.8266C10.5429 25.2666 9.41398 24.5066 8.45398 23.5466C7.49398 22.5866 6.73398 21.4577 6.17398 20.1599C5.61398 18.8621 5.33398 17.4755 5.33398 15.9999C5.33398 14.5244 5.61398 13.1377 6.17398 11.8399C6.73398 10.5421 7.49398 9.41325 8.45398 8.45325C9.41398 7.49325 10.5429 6.73325 11.8407 6.17325C13.1384 5.61325 14.5251 5.33325 16.0007 5.33325C17.4762 5.33325 18.8629 5.61325 20.1607 6.17325C21.4584 6.73325 22.5873 7.49325 23.5473 8.45325C24.5073 9.41325 25.2673 10.5421 25.8273 11.8399C26.3873 13.1377 26.6673 14.5244 26.6673 15.9999C26.6673 17.4755 26.3873 18.8621 25.8273 20.1599C25.2673 21.4577 24.5073 22.5866 23.5473 23.5466C22.5873 24.5066 21.4584 25.2666 20.1607 25.8266C18.8629 26.3866 17.4762 26.6666 16.0007 26.6666ZM16.0007 24.5333C18.3829 24.5333 20.4007 23.7066 22.054 22.0533C23.7073 20.3999 24.534 18.3821 24.534 15.9999C24.534 13.6177 23.7073 11.5999 22.054 9.94659C20.4007 8.29325 18.3829 7.46659 16.0007 7.46659C13.6184 7.46659 11.6007 8.29325 9.94732 9.94659C8.29398 11.5999 7.46732 13.6177 7.46732 15.9999C7.46732 18.3821 8.29398 20.3999 9.94732 22.0533C11.6007 23.7066 13.6184 24.5333 16.0007 24.5333Z"
+                fill="#D60000"
+              ></path>
+            </svg>
+            <p className="text-xs">ভিডিও</p>
+          </div>
+          {/* second */}
+          <div className="flex items-center pr-2 border-r-1 border-gray-400">
+            <svg
+              class="XmPpY"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+              fill="none"
+              className="size-5 mr-1"
+            >
+              <path
+                d="M14.5607 19.9999L19.7607 16.6666C20.0095 16.5066 20.134 16.2844 20.134 15.9999C20.134 15.7155 20.0095 15.4933 19.7607 15.3333L14.5607 11.9999C14.294 11.8221 14.0229 11.8088 13.7473 11.9599C13.4718 12.111 13.334 12.3466 13.334 12.6666V19.3333C13.334 19.6533 13.4718 19.8888 13.7473 20.0399C14.0229 20.191 14.294 20.1777 14.5607 19.9999ZM16.0007 26.6666C14.5251 26.6666 13.1384 26.3866 11.8407 25.8266C10.5429 25.2666 9.41398 24.5066 8.45398 23.5466C7.49398 22.5866 6.73398 21.4577 6.17398 20.1599C5.61398 18.8621 5.33398 17.4755 5.33398 15.9999C5.33398 14.5244 5.61398 13.1377 6.17398 11.8399C6.73398 10.5421 7.49398 9.41325 8.45398 8.45325C9.41398 7.49325 10.5429 6.73325 11.8407 6.17325C13.1384 5.61325 14.5251 5.33325 16.0007 5.33325C17.4762 5.33325 18.8629 5.61325 20.1607 6.17325C21.4584 6.73325 22.5873 7.49325 23.5473 8.45325C24.5073 9.41325 25.2673 10.5421 25.8273 11.8399C26.3873 13.1377 26.6673 14.5244 26.6673 15.9999C26.6673 17.4755 26.3873 18.8621 25.8273 20.1599C25.2673 21.4577 24.5073 22.5866 23.5473 23.5466C22.5873 24.5066 21.4584 25.2666 20.1607 25.8266C18.8629 26.3866 17.4762 26.6666 16.0007 26.6666ZM16.0007 24.5333C18.3829 24.5333 20.4007 23.7066 22.054 22.0533C23.7073 20.3999 24.534 18.3821 24.534 15.9999C24.534 13.6177 23.7073 11.5999 22.054 9.94659C20.4007 8.29325 18.3829 7.46659 16.0007 7.46659C13.6184 7.46659 11.6007 8.29325 9.94732 9.94659C8.29398 11.5999 7.46732 13.6177 7.46732 15.9999C7.46732 18.3821 8.29398 20.3999 9.94732 22.0533C11.6007 23.7066 13.6184 24.5333 16.0007 24.5333Z"
+                fill="#D60000"
+              ></path>
+            </svg>
+             <p className="text-xs">ভিডিও</p>
+          </div>
+          {/* third */}
+          <div className="flex items-center ">
+            <svg
+              class="XmPpY"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+              fill="none"
+              className="size-5 mr-1"
+            >
+              <path
+                d="M14.5607 19.9999L19.7607 16.6666C20.0095 16.5066 20.134 16.2844 20.134 15.9999C20.134 15.7155 20.0095 15.4933 19.7607 15.3333L14.5607 11.9999C14.294 11.8221 14.0229 11.8088 13.7473 11.9599C13.4718 12.111 13.334 12.3466 13.334 12.6666V19.3333C13.334 19.6533 13.4718 19.8888 13.7473 20.0399C14.0229 20.191 14.294 20.1777 14.5607 19.9999ZM16.0007 26.6666C14.5251 26.6666 13.1384 26.3866 11.8407 25.8266C10.5429 25.2666 9.41398 24.5066 8.45398 23.5466C7.49398 22.5866 6.73398 21.4577 6.17398 20.1599C5.61398 18.8621 5.33398 17.4755 5.33398 15.9999C5.33398 14.5244 5.61398 13.1377 6.17398 11.8399C6.73398 10.5421 7.49398 9.41325 8.45398 8.45325C9.41398 7.49325 10.5429 6.73325 11.8407 6.17325C13.1384 5.61325 14.5251 5.33325 16.0007 5.33325C17.4762 5.33325 18.8629 5.61325 20.1607 6.17325C21.4584 6.73325 22.5873 7.49325 23.5473 8.45325C24.5073 9.41325 25.2673 10.5421 25.8273 11.8399C26.3873 13.1377 26.6673 14.5244 26.6673 15.9999C26.6673 17.4755 26.3873 18.8621 25.8273 20.1599C25.2673 21.4577 24.5073 22.5866 23.5473 23.5466C22.5873 24.5066 21.4584 25.2666 20.1607 25.8266C18.8629 26.3866 17.4762 26.6666 16.0007 26.6666ZM16.0007 24.5333C18.3829 24.5333 20.4007 23.7066 22.054 22.0533C23.7073 20.3999 24.534 18.3821 24.534 15.9999C24.534 13.6177 23.7073 11.5999 22.054 9.94659C20.4007 8.29325 18.3829 7.46659 16.0007 7.46659C13.6184 7.46659 11.6007 8.29325 9.94732 9.94659C8.29398 11.5999 7.46732 13.6177 7.46732 15.9999C7.46732 18.3821 8.29398 20.3999 9.94732 22.0533C11.6007 23.7066 13.6184 24.5333 16.0007 24.5333Z"
+                fill="#D60000"
+              ></path>
+            </svg>
+             <p className="text-xs">ভিডিও</p>
+          </div>
         </div>
       </div>
     </div>

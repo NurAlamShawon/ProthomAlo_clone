@@ -2,7 +2,7 @@ import React from "react";
 
 const Middle = () => {
   return (
-    <div className="pr-4 space-y-3 border-r-2 border-gray-400 pb-20">
+    <div className="pr-4 space-y-3 border-r-2 border-gray-400 pb-10">
       <img
         src="//media.prothomalo.com/prothomalo-bangla%2F2025-07-23%2Ff5riu5al%2F61310312605.jpg?rect=153%2C0%2C912%2C608&amp;w=270&amp;auto=format%2Ccompress&amp;fmt=avif"
         alt=""

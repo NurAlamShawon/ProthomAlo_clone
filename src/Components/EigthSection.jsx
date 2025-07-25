@@ -9,7 +9,7 @@ const EigthSection = () => {
       .then((data) => setNews(data));
   }, []);
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto my-20">
       <hr className="border-3 border-gray-600"></hr>
 
       <h1 className="text-xl font-bold text-black my-6  flex items-center">

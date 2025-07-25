@@ -11,10 +11,15 @@ import NinthSection from "../Components/NinthSection/NinthSection";
 import TenthSection from "../Components/TenthSection.jsx/TenthSection";
 import AddSection from "../Components/AddSection";
 import ElevenSection from "../Components/ElevenSection/ElevenSection";
+import TwelveSection from "../Components/TwelveSection/TwelveSection";
+import ThirteenSection from "../Components/ThirteenSection/ThirteenSection";
+import FourteenSection from "../Components/FourteenSection";
+import Fifteen from "../Components/Fifteen/Fifteen";
+import SixteenSection from "../Components/SixteenSection";
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <FirstSection />
       <SecondSection />
       <ThirdSection />
@@ -27,6 +32,11 @@ const Home = () => {
       <TenthSection/>
       <AddSection/>
       <ElevenSection/>
+      <TwelveSection/>
+      <ThirteenSection/>
+      <FourteenSection/>
+      <Fifteen/>
+      <SixteenSection/>
     </div>
   );
 };

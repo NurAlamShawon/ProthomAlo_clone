@@ -12,7 +12,7 @@ const Right = () => {
       <div className="w-full grid grid-cols-6 gap-2 px-4 mt-4 border-b-1 border-amber-400">
         {/* left */}
         <div className="col-span-3">
-          <div className="pr-4 space-y-3 border-r-2 border-gray-400">
+          <div className="pr-4 space-y-3 border-r-2 border-gray-400 pb-10">
             <img
               src="//media.prothomalo.com/prothomalo-bangla%2F2025-07-25%2Fvub20bih%2Fpaoli2.jpg?w=375&amp;auto=format%2Ccompress&amp;fmt=avif"
               alt=""
@@ -28,7 +28,7 @@ const Right = () => {
           </div>
         </div>
         {/* right */}
-        <div className="col-span-3">
+        <div className="col-span-3 mb-2">
           {/* first */}
           <div>
             <div className="flex items-center justify-between">
@@ -42,7 +42,7 @@ const Right = () => {
               <img
                 src="//media.prothomalo.com/prothomalo-bangla%2F2025-07-24%2Fqf9qj7r1%2Fwalk-1.jpg?w=155&amp;auto=format%2Ccompress&amp;fmt=avif" 
                 alt=""
-                className="max-w-50 h-22 "
+                className="max-w-22 h-22 "
               />
             </div>
           </div>
@@ -78,7 +78,7 @@ const Right = () => {
               </div>
 
               <img
-               src="//media.prothomalo.com/prothomalo-bangla%2F2023-07%2F038254d6-4092-46c3-9fca-7a3f7baea1a0%2Fbeli___W.jpg?rect=173%2C0%2C732%2C732&amp;w=155&amp;auto=format%2Ccompress&amp;fmt=avif" 
+              src="//media.prothomalo.com/prothomalo-bangla%2F2023-07%2F038254d6-4092-46c3-9fca-7a3f7baea1a0%2Fbeli___W.jpg?rect=173%2C0%2C732%2C732&amp;w=155&amp;auto=format%2Ccompress&amp;fmt=avif"
                 alt=""
                 className="max-w-50 h-22 "
               />
