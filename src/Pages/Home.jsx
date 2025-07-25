@@ -9,6 +9,8 @@ import SeventhSection from "../Components/SeventhSection/SeventhSection";
 import EigthSection from "../Components/EigthSection";
 import NinthSection from "../Components/NinthSection/NinthSection";
 import TenthSection from "../Components/TenthSection.jsx/TenthSection";
+import AddSection from "../Components/AddSection";
+import ElevenSection from "../Components/ElevenSection/ElevenSection";
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
       <EigthSection/>
       <NinthSection/>
       <TenthSection/>
+      <AddSection/>
+      <ElevenSection/>
     </div>
   );
 };
