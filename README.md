@@ -1,12 +1,26 @@
-# React + Vite
+📰 Prothom Alo Clone - Bangla News Portal<br><br>
+A fully responsive Bangla news website inspired by Prothom Alo, one of the leading news portals in Bangladesh. This project showcases real-world UI layout, content rendering, and performance optimization, all crafted using modern frontend technologies.<br><br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Preview: https://prothomalobd.netlify.app<br><br>
 
-Currently, two official plugins are available:
+✨ Features
+📱 Responsive design for mobile, tablet, and desktop<br>
+📰 Realistic layout structure similar to professional news sites<br>
+🗞 Bangla typography support (with custom Bangla fonts)<br>
+🌐 Optimized routing and navigation using React Router<br>
+🎨 Styled with Tailwind CSS and DaisyUI<br>
+🔄 Smooth transitions and component visibility on scroll<br>
+🧠 Modular codebase with reusable components<br><br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+React.js<br>
 
-## Expanding the ESLint configuration
+React Router<br>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS<br>
+
+DaisyUI<br>
+
+Custom Bangla Fonts<br>
+
+Netlify (Deployment)<br>
