@@ -2,17 +2,21 @@ import React from "react";
 
 const LeftSection = () => {
   return (
-    <div className=" xl:border-r-2 border-gray-400">
-      <div className="pt-4">
+    <div className="xl:pr-4 relative">
+
+<div className="absolute xl:block hidden left-78 w-px h-208 bg-gray-500"></div>
+
+      <div className="pt-4 ">
         {/* name of each tab group should be unique */}
         <div className="tabs tabs-border border-none">
           <input
             type="radio"
             name="my_tabs_2"
-            className="tab "
+            className="tab border-b-2 border-transparent tab-active:border-red-500 pb-1"
             aria-label="পঠিত"
             defaultChecked
           />
+
           <div className="tab-content p-4">
             {/* first */}
             <div>
@@ -33,7 +37,7 @@ const LeftSection = () => {
                 আমাদের মেরে ফেলবে’
               </p>
             </div>
-           <hr className="border-1 my-5 border-gray-200"></hr>
+            <hr className="border-1 my-5 border-gray-200"></hr>
             {/* third */}
             <div>
               <h1 className="text-4xl text-gray-600 font-bold mb-1">৩</h1>
@@ -46,7 +50,7 @@ const LeftSection = () => {
                 এমন ভয়ের পরিবেশে রায় তো দূরের কথা, আদেশই–বা কে দেবে: সারা হোসেন
               </p>
             </div>
-             <hr className="border-1 my-5 border-gray-200"></hr>
+            <hr className="border-1 my-5 border-gray-200"></hr>
             {/* fourth */}
             <div>
               <h1 className="text-4xl text-gray-600 font-bold mb-1">৪</h1>
@@ -55,7 +59,7 @@ const LeftSection = () => {
                 কাঠগড়ায় সাবেক অধ্যাপক আবুল বারকাতের এক ঘণ্টা
               </p>
             </div>
-             <hr className="border-1 my-5 border-gray-200"></hr>
+            <hr className="border-1 my-5 border-gray-200"></hr>
             {/* fifth */}
             <div>
               <h1 className="text-4xl text-gray-600 font-bold mb-1">৫</h1>
@@ -83,7 +87,7 @@ const LeftSection = () => {
                 বাংলাদেশ ব্যাংক
               </p>
             </div>
-             <hr className="border-1 my-5 border-gray-200"></hr>
+            <hr className="border-1 my-5 border-gray-200"></hr>
             {/* second */}
             <div>
               <h1 className="text-4xl text-gray-600 font-bold mb-1 ">২</h1>
@@ -102,7 +106,7 @@ const LeftSection = () => {
                 অধ্যাপক ইউনূস
               </p>
             </div>
-             <hr className="border-1 my-5 border-gray-200"></hr>
+            <hr className="border-1 my-5 border-gray-200"></hr>
             {/* fourth */}
             <div>
               <h1 className="text-4xl text-gray-600 font-bold mb-1">৪</h1>
@@ -139,7 +143,7 @@ const LeftSection = () => {
                 টিউশনির জমানো টাকায় ভাগ্যবদল
               </p>
             </div>
-             <hr className="border-1 my-5 border-gray-200"></hr>
+            <hr className="border-1 my-5 border-gray-200"></hr>
             {/* second */}
             <div>
               <h1 className="text-4xl text-gray-600 font-bold mb-1">২</h1>

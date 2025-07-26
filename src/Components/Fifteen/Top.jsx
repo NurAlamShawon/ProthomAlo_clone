@@ -3,12 +3,12 @@ import React from "react";
 const Top = () => {
   return (
     <div>
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid xl:grid-cols-4 grid-cols-1 gap-6">
         {/* first */}
         <div>
           <hr className="border-3 border-gray-600"></hr>
 
-          <h1 className="text-xl font-bold text-black my-6  flex items-center">
+          <h1 className="text-xl font-bold text-black my-6  flex items-center hover:text-blue-700 ">
             শিক্ষা
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -34,16 +34,16 @@ const Top = () => {
             />
           </div>
           <div className="space-y-4">
-            <h1 className="text-lg font-bold text-black">
+            <h1 className="text-lg font-bold text-black hover:text-blue-700 ">
               একাদশ শ্রেণিতে ভর্তির আবেদন ৩০ জুলাই শুরু, ক্লাস ১৫ সেপ্টেম্বর
               থেকে
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
               বিল গেটস বৃত্তি, সুযোগ তিন শতাধিক শিক্ষার্থীর
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
               বিনা খরচে ২ লাখ টাকার আইটি প্রশিক্ষণ, ফাজিল–কামিলের শিক্ষার্থীদেরও
               সুযোগ
             </h1>
@@ -54,7 +54,7 @@ const Top = () => {
         <div>
           <hr className="border-3 border-gray-600"></hr>
 
-          <h1 className="text-xl font-bold text-black my-6  flex items-center">
+          <h1 className="text-xl font-bold text-black my-6  flex items-center hover:text-blue-700 ">
             চাকরি
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -80,15 +80,15 @@ const Top = () => {
             />
           </div>
           <div className="space-y-4">
-            <h1 className="text-lg font-bold text-black">
+            <h1 className="text-lg font-bold text-black hover:text-blue-700 ">
             বিদ্যুৎ কোম্পানিতে চাকরি, সংশোধিত বিজ্ঞপ্তিতে নেবে ১১৮ জন
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
              ৮ ব্যাংক ও ১টি আর্থিক প্রতিষ্ঠানে ‘অফিসার’ পদের পরীক্ষার সূচি প্রকাশ, প্রার্থী ১২,৯৯৯
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
             কৃষি গবেষণা ইনস্টিটিউটে নবমসহ বিভিন্ন গ্রেডে নিয়োগ, পদ ৯৭
             </h1>
           </div>
@@ -98,7 +98,7 @@ const Top = () => {
         <div>
           <hr className="border-3 border-gray-600"></hr>
 
-          <h1 className="text-xl font-bold text-black my-6  flex items-center">
+          <h1 className="text-xl font-bold text-black my-6  flex items-center hover:text-blue-700 ">
             প্রযুক্তি
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -124,18 +124,18 @@ const Top = () => {
             />
           </div>
           <div className="space-y-4">
-            <h1 className="text-lg font-bold text-black">
-             <span className="text-red-600 ">
+            <h1 className="text-lg font-bold text-black hover:text-blue-700 ">
+             <span className="text-red-600 hover:text-blue-700 ">
               স্যাম অল্টম্যানের মতে
               <span className="mx-2 inline-block w-1.5 h-1.5 bg-gray-400 rounded-full align-middle"></span>
             </span>{" "} এআইয়ের কারণে পুরোপুরি বিলুপ্ত হয়ে যাবে যে পেশা
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
              জুলাই মাসে দ্রুত ঘুরছে পৃথিবী
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
              চ্যাটজিপিটির মাধ্যমে পছন্দের তারকার সঙ্গে সেলফি তৈরির সুযোগ
             </h1>
           </div>
@@ -145,7 +145,7 @@ const Top = () => {
         <div>
           <hr className="border-3 border-gray-600"></hr>
 
-          <h1 className="text-xl font-bold text-black my-6  flex items-center">
+          <h1 className="text-xl font-bold text-black my-6  flex items-center hover:text-blue-700 ">
             গ্যাজেটস
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -171,15 +171,15 @@ const Top = () => {
             />
           </div>
           <div className="space-y-4">
-            <h1 className="text-lg font-bold text-black">
+            <h1 className="text-lg font-bold text-black hover:text-blue-700 ">
              দেশের বাজারে কোপাইলট চ্যাটবটযুক্ত নতুন দুই ল্যাপটপ
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
              দেশের বাজারে কম দামে কৃত্রিম বুদ্ধিমত্তা প্রযুক্তির নতুন স্মার্টফোন
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
               দেশের বাজারে নতুন গেমিং স্মার্টফোন
             </h1>
           </div>

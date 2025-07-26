@@ -1,11 +1,12 @@
 import React from "react";
 import Left from "./Left";
 import Right from "./Right";
+import ForResponsive from "./ForResponsive";
 
 const ThirteenSection = () => {
   return (
     <div className="bg-gray-600 py-10">
-      <div className=" max-w-7xl mx-auto ">
+      <div className=" max-w-7xl mx-auto xl:px-0 px-4">
         <h1 className="text-xl font-bold text-white  mb-4 flex items-center">
           ভিডিও
           <svg
@@ -23,8 +24,8 @@ const ThirteenSection = () => {
             />
           </svg>
         </h1>
-
-        <div className="grid grid-cols-12 gap-4">
+        {/* for PC */}
+        <div className="xl:grid grid-cols-12 gap-4 hidden">
           {/* left */}
           <div className="col-span-6">
             <Left />
@@ -33,6 +34,10 @@ const ThirteenSection = () => {
           <div className="col-span-6">
             <Right />
           </div>
+        </div>
+        {/* for responsive mobile */}
+        <div className="xl:hidden inline">
+          <ForResponsive/>
         </div>
       </div>
     </div>

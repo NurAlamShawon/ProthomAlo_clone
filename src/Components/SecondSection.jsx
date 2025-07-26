@@ -20,7 +20,7 @@ const SecondSection = () => {
           <Swiper
             grabCursor={true}
             spaceBetween={15}
-            slidesPerView={1.2} // 1 full + partial next card
+            slidesPerView={1.2} 
             centeredSlides={false}
             breakpoints={{
               640: {

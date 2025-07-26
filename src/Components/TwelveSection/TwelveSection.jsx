@@ -4,7 +4,7 @@ import Right from "./Right";
 
 const TwelveSection = () => {
   return (
-     <div className="max-w-7xl mx-auto my-10">
+     <div className="max-w-7xl mx-auto my-10 xl:px-0 px-4">
       <hr className="border-3 border-gray-600"></hr>
 
       <h1 className="text-xl font-bold text-black my-6  flex items-center">
@@ -26,11 +26,11 @@ const TwelveSection = () => {
       </h1>
       <div className="grid grid-cols-12 gap-6">
         {/* left */}
-        <div className="col-span-7">
+        <div className="xl:col-span-7 col-span-12">
           <Left />
         </div>
         {/* right */}
-        <div className="col-span-5">
+        <div className="xl:col-span-5 col-span-12">
           <Right />
         </div>
       </div>

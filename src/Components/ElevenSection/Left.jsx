@@ -9,35 +9,35 @@ const Left = () => {
         className="w-full my-4"
       />
 
-      <div className="w-full grid grid-cols-6 gap-2 pb-8 border-b-1 border-gray-400">
+      <div className="w-full grid grid-cols-6 xl:pb-15  pb-8 border-b-1 border-gray-300">
         {/* left */}
-        <div className="col-span-3">
-          <div className="pr-4 space-y-3 border-r-2 border-gray-400">
+        <div className="xl:col-span-3 col-span-6">
+          <div className="xl:pr-4  space-y-3 xl:border-r-2 border-gray-300 xl:border-b-0 border-b-1 xl:pb-0 pb-4 xl:mb-0 mb-4 ">
             <img
               src="//media.prothomalo.com/prothomalo-bangla%2F2025-07-24%2F0tj77cyq%2F1756Online01.jpg?rect=50%2C0%2C534%2C356&amp;w=242&amp;auto=format%2Ccompress&amp;fmt=avif"
               alt=""
-              className="w-full"
+              className="w-full  h-48"
             />
-            <h1 className="text-xl text-black font-bold">
+            <h1 className="text-xl text-black font-bold hover:text-blue-700 ">
               শত বছরের পুরোনো সভ্যতা, অথচ বর্তমান ইউরোপের চেয়েও পরিচ্ছন্ন
             </h1>
-            <p className="text-base text-gray-600 hover:text-gray-900">
+            <p className="text-base text-gray-600 hover:text-gray-800">
               যুক্তরাষ্ট্রের ক্যালিফোর্নিয়ার স্যান হোসেতে কুয়েটজেলকোয়াটল নামে
               একটি ভাস্কর্য আছে, যা দেখতে অনেকটা মলের মতো।
             </p>
-            <p className="text-base text-gray-600">১৫ ঘণ্টা আগে</p>
+            <p className="text-base text-gray-400">১৫ ঘণ্টা আগে</p>
           </div>
         </div>
         {/* right */}
-        <div className="col-span-3">
+        <div className="xl:col-span-3 col-span-6 xl:pl-4">
           {/* first */}
           <div>
             <div className="flex items-center justify-between">
               <div className="space-y-3">
-                <p className="text-base font-bold text-gray-800 ">
+                <p className="text-base font-bold text-gray-800 hover:text-blue-700 ">
                   গভীর ধ্যানে আছি
                 </p>
-                <p className="text-sm text-gray-600">১৫ ঘণ্টা আগে</p>
+                <p className="text-sm text-gray-400">১৫ ঘণ্টা আগে</p>
               </div>
 
               <img
@@ -53,10 +53,10 @@ const Left = () => {
           <div>
             <div className="flex items-center justify-between">
               <div className="space-y-3">
-                <p className="text-base font-bold text-gray-800 ">
+                <p className="text-base font-bold text-gray-800 hover:text-blue-700 ">
                   অলিম্পিকের খেলার তালিকায় এটিও ছিল
                 </p>
-                <p className="text-sm text-gray-600">২৩ জুলাই ২০২৫</p>
+                <p className="text-sm text-gray-400">২৩ জুলাই ২০২৫</p>
               </div>
 
               <img
@@ -72,10 +72,10 @@ const Left = () => {
           <div>
             <div className="flex items-center justify-between">
               <div className="space-y-3">
-                <p className="text-base font-bold text-gray-800 ">
+                <p className="text-base font-bold text-gray-800 hover:text-blue-700 ">
                   কোথায় যাচ্ছ? ইউএস না ইউকে?
                 </p>
-                <p className="text-sm text-gray-600">২৩ জুলাই ২০২৫</p>
+                <p className="text-sm text-gray-400">২৩ জুলাই ২০২৫</p>
               </div>
 
               <img

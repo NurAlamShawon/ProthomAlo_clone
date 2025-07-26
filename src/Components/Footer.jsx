@@ -9,11 +9,11 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="max-w-7xl mx-auto bg-white border-t border-gray-300 mt-10 text-center text-black text-sm">
+    <footer className="max-w-7xl mx-auto xl:px-0 px-4 bg-white border-t border-gray-300 mt-10 text-center text-black text-sm">
       <div className=" py-8 space-y-6">
         {/* Logo & Links */}
         <div>
-          <div className="flex items-center mb-10">
+          <div className="flex xl:mx-0 mx-21   items-center mb-10">
             <img
               src="https://i.postimg.cc/QdWc78L9/image.png"
               alt=""
@@ -22,7 +22,7 @@ const Footer = () => {
             <p className="text-xl font-bold text-black">prothomalo.com</p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4  max-w-6xl text-start">
+          <div className="xl:grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4  max-w-6xl text-start hidden">
             <p className="hover:text-blue-700">নাগরিক সংবাদ</p>
             <p className="hover:text-blue-700">কিশোর আলো</p>
             <p className="hover:text-blue-700">বিজ্ঞানচিন্তা</p>
@@ -33,13 +33,24 @@ const Footer = () => {
             <p className="hover:text-blue-700">প্রথমা</p>
             <p className="hover:text-blue-700">মোবাইল ভাস</p>
           </div>
+
+          <div className="xl:hidden block space-y-3">
+            <p className="hover:text-blue-700">
+              নাগরিক সংবাদ &nbsp; কিশোর &nbsp; আলো &nbsp; বিজ্ঞানচিন্তা
+            </p>
+            <p className="hover:text-blue-700">
+              প্রথম আলো ট্রাস্ট &nbsp; বন্ধুসভা &nbsp; চিরন্তন ১৯৭১ &nbsp;
+              ইপেপার &nbsp; প্রথমা
+            </p>
+            <p className="hover:text-blue-700">মোবাইল ভাস</p>
+          </div>
         </div>
 
         <div className="border-t border-gray-300 my-10"></div>
 
-        <div className="flex items-center justify-between">
+        <div className="xl:flex flex-row items-center justify-between">
           {/* Social Media */}
-          <div className="space-y-4  pb-6">
+          <div className="space-y-4 xl:mb-0 mb-4  xl:pb-6 pb-4 xl:border-b-0 border-b-1 border-gray-300">
             <p className=" text-gray-500 text-xs">অনুসরণ করুন</p>
             <div className="flex justify-center gap-3 text-xl">
               <div className="flex gap-4 items-center">
@@ -107,7 +118,6 @@ l2.366,3.195L15.531,7z M14.947,15.986h0.92L9.926,7.962H8.937L14.947,15.986z"
                   />
                 </a>
 
-
                 {/* YouTube */}
                 <a
                   href="https://youtube.com"
@@ -154,8 +164,10 @@ l2.366,3.195L15.531,7z M14.947,15.986h0.92L9.926,7.962H8.937L14.947,15.986z"
           {/* App Downloads */}
 
           <div>
-            <p className=" text-gray-500 text-xs mb-3">মোবাইল অ্যাপস ডাউনলোড করুন</p>
-            <div className="flex items-center gap-4">
+            <p className=" text-gray-500 text-xs mb-3">
+              মোবাইল অ্যাপস ডাউনলোড করুন
+            </p>
+            <div className="flex justify-center items-center gap-4">
               {/* Google Play – PNG badge with white effect */}
               <a
                 href="https://play.google.com/store"
@@ -186,8 +198,9 @@ l2.366,3.195L15.531,7z M14.947,15.986h0.92L9.926,7.962H8.937L14.947,15.986z"
           </div>
         </div>
         <div className="border-t-1 border-gray-300"></div>
-        {/* Bottom Links */}
-        <div className="flex  justify-center gap-3 text-gray-500 text-[12px]">
+
+        {/* Bottom Links for pc */}
+        <div className="hidden xl:flex  justify-center gap-3 text-gray-500 text-[12px]">
           <p className="flex items-center hover:text-blue-700">
             প্রথম আলো{" "}
             <span className="ml-4 rounded-full align-bottom bg-gray-300 w-2 h-2"></span>
@@ -213,6 +226,28 @@ l2.366,3.195L15.531,7z M14.947,15.986h0.92L9.926,7.962H8.937L14.947,15.986z"
             <span className="ml-4 rounded-full align-bottom bg-gray-300 w-2 h-2"></span>
           </p>
           <p className="hover:text-blue-700">নিউজলেটার</p>
+        </div>
+
+        <div className="xl:hidden block space-y-3">
+          <p className="hover:text-blue-700 text-xs text-gray-600">
+            প্রথম আলো{" "}
+            <span className="ml-2 inline-block rounded-full align-bottom bg-gray-300 w-2 h-2"></span>{" "}
+            &nbsp; বিজ্ঞাপন{" "}
+            <span className="ml-2 inline-block rounded-full align-bottom bg-gray-300 w-2 h-2"></span>{" "}
+            &nbsp; সার্কুলেশন{" "}
+            <span className="ml-2 inline-block rounded-full align-bottom bg-gray-300 w-2 h-2"></span>
+          </p>
+
+          <p className="hover:text-blue-700 text-xs text-gray-600">
+            শর্তাবলি ও নীতিমালা{" "}
+            <span className="ml-2 inline-block rounded-full align-bottom bg-gray-300 w-2 h-2"></span>{" "}
+            &nbsp; গোপনীয়তা নীতি{" "}
+            <span className="ml-2 inline-block rounded-full align-bottom bg-gray-300 w-2 h-2"></span>{" "}
+            &nbsp; যোগাযোগ{" "}
+            <span className="ml-2 inline-block rounded-full align-bottom bg-gray-300 w-2 h-2"></span>
+          </p>
+
+          <p className="hover:text-blue-700 text-xs text-gray-600">নিউজলেটার</p>
         </div>
 
         <div className="border-t-1 border-gray-300 "></div>

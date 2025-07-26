@@ -3,12 +3,12 @@ import React from "react";
 const Bottom = () => {
   return (
     <div className="mt-6">
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid xl:grid-cols-4 grid-cols-1 gap-6">
         {/* first */}
         <div>
           <hr className="border-3 border-gray-600"></hr>
 
-          <h1 className="text-xl font-bold text-black my-6  flex items-center">
+          <h1 className="text-xl font-bold text-black my-6 hover:text-blue-700   flex items-center">
             অন্য আলো
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -34,24 +34,24 @@ const Bottom = () => {
             />
           </div>
           <div className="space-y-4">
-            <h1 className="text-lg font-bold text-black">
-              <span className="text-red-600 ">
+            <h1 className="text-lg font-bold text-black hover:text-blue-700 ">
+              <span className="text-red-600 hover:text-blue-700 ">
                 জন্মদিনে অর্ঘ্য
                 <span className="mx-2 inline-block w-1.5 h-1.5 bg-gray-400 rounded-full align-middle"></span>
               </span>{" "}
               সংঘচারিতায় উজ্জ্বল আবদুল্লাহ আবু সায়ীদ
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
-              <span className="text-red-600 ">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
+              <span className="text-red-600 hover:text-blue-700 ">
                 হামিদুজ্জামানের ভাস্কর্য
                 <span className="mx-2 inline-block w-1.5 h-1.5 bg-gray-400 rounded-full align-middle"></span>
               </span>{" "}
               ফর্মের জাদু, ন্যূনতমের বড়ত্ব
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
-              <span className="text-red-600 ">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
+              <span className="text-red-600 hover:text-blue-700 ">
                 পেরু ভ্রমণ
                 <span className="mx-2 inline-block w-1.5 h-1.5 bg-gray-400 rounded-full align-middle"></span>
               </span>{" "}
@@ -64,7 +64,7 @@ const Bottom = () => {
         <div>
           <hr className="border-3 border-gray-600"></hr>
 
-          <h1 className="text-xl font-bold text-black my-6  flex items-center">
+          <h1 className="text-xl font-bold text-black my-6 hover:text-blue-700   flex items-center">
             দূর পরবাস
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -90,21 +90,21 @@ const Bottom = () => {
             />
           </div>
           <div className="space-y-4">
-            <h1 className="text-lg font-bold text-black">
+            <h1 className="text-lg font-bold text-black hover:text-blue-700 ">
               আলহামরা: স্পেনে মুসলিম সভ্যতার নিদর্শন–১
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">আমি পাখি হবো</h1>
+            <h1 className="text-lg  text-black hover:text-blue-700 ">আমি পাখি হবো</h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">অভিশাপ</h1>
+            <h1 className="text-lg  text-black hover:text-blue-700 ">অভিশাপ</h1>
           </div>
         </div>
 
         {/* third */}
         <div>
-          <hr className="border-3 border-gray-600"></hr>
+          <hr className="border-3 border-gray-600 "></hr>
 
-          <h1 className="text-xl font-bold text-black my-6  flex items-center">
+          <h1 className="text-xl font-bold text-black my-6 hover:text-blue-700  flex items-center">
             নাগরিক সংবাদ
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -130,13 +130,13 @@ const Bottom = () => {
             />
           </div>
           <div className="space-y-4">
-            <h1 className="text-lg font-bold text-black">
+            <h1 className="text-lg font-bold text-black hover:text-blue-700 ">
               সাগর থেকে পাহাড় পর্যন্ত পর্যটনই কি কক্সবাজারের শেষ ঘণ্টা
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">পাঠকের ছবি (২৪ জুলাই ২০২৫)</h1>
+            <h1 className="text-lg  text-black hover:text-blue-700 ">পাঠকের ছবি (২৪ জুলাই ২০২৫)</h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">পাঠকের ছবি (২৩ জুলাই ২০২৫)</h1>
+            <h1 className="text-lg  text-black hover:text-blue-700 ">পাঠকের ছবি (২৩ জুলাই ২০২৫)</h1>
           </div>
         </div>
 
@@ -144,7 +144,7 @@ const Bottom = () => {
         <div>
           <hr className="border-3 border-gray-600"></hr>
 
-          <h1 className="text-xl font-bold text-black my-6  flex items-center">
+          <h1 className="text-xl font-bold text-black my-6  flex items-center hover:text-blue-700 ">
             ধর্ম
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -170,15 +170,15 @@ const Bottom = () => {
             />
           </div>
           <div className="space-y-4">
-            <h1 className="text-lg font-bold text-black">
+            <h1 className="text-lg font-bold text-black hover:text-blue-700 ">
               কেন ওহি আসা বন্ধ হয়েছিল
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
               আল্লাহর নৈকট্য অর্জনের নিদর্শন
             </h1>
             <hr className="border-1 border-gray-300"></hr>
-            <h1 className="text-lg  text-black">
+            <h1 className="text-lg  text-black hover:text-blue-700 ">
               সুস্থ জীবন যাপনে মহানবী (সা.)-এর নয়টি অভ্যাস
             </h1>
           </div>
