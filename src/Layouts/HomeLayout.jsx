@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import { Outlet } from "react-router";
 import Topsection from "../Components/Topsection";
 import Footer from "../Components/Footer";
+import useWindowsWidth from "../Hooks/useWindowsWidth";
 
 const HomeLayout = () => {
   const [showTop, setShowTop] = useState(true);
@@ -25,6 +26,24 @@ const HomeLayout = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+  const width = useWindowsWidth();
+
+const getTopValue = () => {
+  if (!showTop) return "0"; // Navbar at top when Topsection hidden
+
+  
+  if (width >= 1024) {
+    return "120px";
+  } else if (width >= 400) {
+   
+    return "71px";
+  } else {
+   
+    return "60px";
+  }
+};
+
   return (
     <div className="relative">
       {/* Topsection (sticky at top 0) */}
@@ -39,7 +58,7 @@ const HomeLayout = () => {
       {/* Navbar (sticky BELOW topsection: use top-[height-of-topsection]) */}
       <div
         className={`sticky z-40 bg-white shadow transition-all duration-300`}
-        style={{ top: showTop ? "120px" : "0" }}
+        style={{ top: showTop ? getTopValue() : "0" }}
       >
         <Navbar />
       </div>
