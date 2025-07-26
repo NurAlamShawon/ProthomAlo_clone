@@ -4,7 +4,7 @@ const Right = () => {
   return (
     <div>
       {/* first */}
-      <div className="space-y-3 my-6 xl:border-t-0 border-t-1 border-gray-300 xl:pt-0 pt-6">
+      <div className="space-y-3 mb-6 xl:border-t-0 border-t-1 border-gray-300 xl:pt-0 pt-6">
         <div className="flex items-start">
           <p className="text-base font-bold text-gray-600 hover:text-blue-700 ">
              <span className="text-red-600 hover:text-blue-700  ">

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaRegPlayCircle } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Topsection = () => {
   const [top, settop] = useState([]);
@@ -16,13 +17,16 @@ const Topsection = () => {
   return (
     <div className="max-w-7xl mx-auto xl:pt-6 pt-3 xl:pb-6 pb-5">
       <div className="flex items-center justify-between xl:px-0 px-4">
-        <div>
-          <img
-            src="https://i.postimg.cc/CdyDCGvD/image.png"
-            alt=""
-            className="xl:w-66  w-42 cursor-pointer"
-          />
-        </div>
+        <Link to="/">
+          <div>
+            <img
+              src="https://i.postimg.cc/CdyDCGvD/image.png"
+              alt=""
+              className="xl:w-66  w-42 cursor-pointer"
+            />
+          </div>
+        </Link>
+
         <div className="hidden xl:block">
           <div className="max-w-[812px] grid xl:grid-cols-3 gap-3">
             {top.map((item, index) => (

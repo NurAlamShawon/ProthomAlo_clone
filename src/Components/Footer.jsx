@@ -6,6 +6,7 @@ import {
   FaYoutube,
   FaGoogle,
 } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -13,14 +14,16 @@ const Footer = () => {
       <div className=" py-8 space-y-6">
         {/* Logo & Links */}
         <div>
-          <div className="flex xl:mx-0 mx-21   items-center mb-10">
-            <img
-              src="https://i.postimg.cc/QdWc78L9/image.png"
-              alt=""
-              className="w-8"
-            />
-            <p className="text-xl font-bold text-black">prothomalo.com</p>
-          </div>
+          <Link to="/">
+            <div className="flex xl:mx-0 mx-21   items-center mb-10">
+              <img
+                src="https://i.postimg.cc/QdWc78L9/image.png"
+                alt=""
+                className="w-8"
+              />
+              <p className="text-xl font-bold text-black">prothomalo.com</p>
+            </div>
+          </Link>
 
           <div className="xl:grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4  max-w-6xl text-start hidden">
             <p className="hover:text-blue-700">নাগরিক সংবাদ</p>

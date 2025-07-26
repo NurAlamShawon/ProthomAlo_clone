@@ -4,7 +4,7 @@ const LeftSide = () => {
   return (
     <div className="px- xl:px-0">
       {/* first */}
-      <div className="space-y-3 my-6 ">
+      <div className="space-y-3 mb-6 ">
         <div className="flex items-start">
           <p className="hover:text-blue-700  text-lg font-bold text-gray-800 ">
             <span className="text-red-600 hover:text-blue-700">
