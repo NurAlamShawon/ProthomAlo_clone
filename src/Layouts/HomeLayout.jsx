@@ -45,7 +45,7 @@ const getTopValue = () => {
 };
 
   return (
-    <div className="relative">
+    <div className="relative bangla-text2">
       {/* Topsection (sticky at top 0) */}
       <div
         className={`sticky top-0 z-50 transition-all duration-300 bg-white ${

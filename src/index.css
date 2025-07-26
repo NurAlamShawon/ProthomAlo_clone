@@ -1,8 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
+
 @import "tailwindcss";
 @plugin "daisyui" {
-   themes: light --default;
- }
+  themes: light --default;
+}
+
+.tiro-bangla-regular {
+  font-family: "Tiro Bangla", serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
 
 
- 
+
+@font-face {
+  font-family: 'SolaimanLipi';
+  src: url('../public//fonts//SolaimanLipi-Normal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bangla-text {
+  font-family: 'SolaimanLipi', sans-serif;
+}
+
+
+@font-face {
+  font-family: 'SiyalRupali';
+  src: url('../public//fonts/Siyamrupali.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bangla-text2 {
+  font-family: 'SiyalRupali', sans-serif;
+}
