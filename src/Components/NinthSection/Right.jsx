@@ -37,15 +37,15 @@ const Right = () => {
               index < 3 ? "border-b border-gray-300" : ""
             }`}
           >
-            <p className="text-xl font-medium text-gray-800 mb-4">
+            <p className="xl:text-xl text-base font-medium text-gray-800 mb-4">
               <span className="text-red-600 ">
                 {news.title}
-                <span className="mx-2 inline-block w-1.5 h-1.5 bg-gray-400 rounded-full align-middle"></span>
+                <span className="mx-2 inline-block w-1.5 h-1.5 bg-gray-600 rounded-full align-middle"></span>
               </span>{" "}
               {news.description}
             </p>
-            <hr className="border-2 border-gray-400 w-10 "></hr>
-            <p className="text-lg font-medium pb-2">সম্পাদকীয়</p>
+            <hr className="border-2 border-gray-400 w-10 xl:mb-0 mb-1"></hr>
+            <p className="xl:text-lg text-xs font-medium pb-2 text-gray-600">সম্পাদকীয়</p>
           </div>
         </div>
       ))}

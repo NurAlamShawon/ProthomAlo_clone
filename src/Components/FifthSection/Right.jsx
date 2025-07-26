@@ -4,10 +4,10 @@ const Right = () => {
   return (
     <div>
       {/* first */}
-      <div className="space-y-3 my-6">
+      <div className="space-y-3 my-6 xl:border-t-0 border-t-1 border-gray-300 xl:pt-0 pt-6">
         <div className="flex items-start">
-          <p className="text-base font-bold text-gray-800 ">
-             <span className="text-red-600 ">
+          <p className="text-base font-bold text-gray-600 hover:text-blue-700 ">
+             <span className="text-red-600 hover:text-blue-700  ">
              সিলেটে জামায়াত আমির
               <span className="mx-2 inline-block w-1.5 h-1.5 bg-gray-400 rounded-full align-middle"></span>
             </span>{" "}
@@ -20,7 +20,7 @@ const Right = () => {
             className="w-40 h-26"
           />
         </div>
-        <p className="text-sm text-gray-600">৫৩ মিনিট আগে</p>
+        <p className="text-sm text-gray-400">৫৩ মিনিট আগে</p>
       </div>
       <hr className="border-1 my-6 border-gray-200"></hr>
 
@@ -28,7 +28,7 @@ const Right = () => {
 
       <div className="space-y-3 my-6">
         <div className="flex items-start">
-          <p className="text-base font-bold text-gray-800 ">
+          <p className="text-base font-bold text-gray-600 hover:text-blue-700 ">
            বাগেরহাটে ‘শ্বশুরবাড়ির লোকজনের’ মারধরে যুবকের মৃত্যু
           </p>
           <img
@@ -37,7 +37,7 @@ const Right = () => {
             className="w-40 h-26"
           />
         </div>
-        <p className="text-sm text-gray-600">১ ঘণ্টা আগে</p>
+        <p className="text-sm text-gray-400">১ ঘণ্টা আগে</p>
       </div>
     </div>
   );

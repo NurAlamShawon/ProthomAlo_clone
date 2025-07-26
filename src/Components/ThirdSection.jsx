@@ -22,9 +22,9 @@ const ThirdSection = () => {
           />
         </svg>
       </h1>
-      <div className="grid xl:grid-cols-4 grid-cols-2 xl:gap-4 gap-2">
+      <div className="grid xl:grid-cols-4 grid-cols-2">
         {/* first */}
-        <div className=" xl:pr-6 pr-2 border-r-1 border-gray-300 space-y-4">
+        <div className=" pr-6 pb-6 border-r-1 border-gray-300 space-y-4">
           <img
             src="https://i.postimg.cc/BZ54rbXN/image.png"
             alt=""
@@ -43,7 +43,7 @@ const ThirdSection = () => {
         </div>
 
         {/* second */}
-        <div className=" xl:pr-6 xl:border-r-1 border-gray-300 space-y-4">
+        <div className=" xl:px-6 pl-6 pb-6 xl:border-r-1 border-gray-300 space-y-4">
           <img
             src="https://i.postimg.cc/DwK04VLx/image.png"
             alt=""
@@ -62,8 +62,9 @@ const ThirdSection = () => {
           </p>
           <p className="text-base text-gray-400">১৭ ঘণ্টা আগে</p>
         </div>
+     
         {/* third */}
-        <div className=" xl:pr-6 pr-2 border-r-1 border-gray-300 space-y-4">
+        <div className=" xl:px-6 pr-6 pb-6 border-r-1 border-gray-300 space-y-4 xl:mt-0 mt-4">
           <img
             src="https://i.postimg.cc/vTx9mnk1/image.png"
             alt=""
@@ -83,7 +84,7 @@ const ThirdSection = () => {
           <p className="text-base text-gray-400">১৭ ঘণ্টা আগে</p>
         </div>
         {/* fourth */}
-        <div className="xl:pl-6 space-y-4">
+        <div className="pl-6 pb-6 space-y-4 xl:mt-0 mt-4">
           <img
             src="https://i.postimg.cc/k5jf6x1w/image.png"
             alt=""

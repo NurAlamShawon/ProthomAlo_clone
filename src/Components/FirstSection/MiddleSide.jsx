@@ -97,7 +97,7 @@ const MiddleSide = () => {
                     index < 2 ? "border-r border-gray-300" : ""
                   }`}
                 >
-                  <img src={news.img} alt="" className="w-full" />
+                  <img src={news.img} alt="" className="w-full h-27" />
                   <p className="text-base font-bold text-gray-800 w-full hover:text-blue-700 ">
                     {news.title}
                   </p>

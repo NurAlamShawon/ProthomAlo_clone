@@ -5,7 +5,7 @@ import Left from "./Left";
 
 const FifthSection = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto xl:px-0 px-4">
       <hr className="border-3 border-gray-600"></hr>
 
       <h1 className="text-xl font-bold text-black my-6  flex items-center">
@@ -26,8 +26,8 @@ const FifthSection = () => {
         </svg>
       </h1>
 
-      <div  className="flex items-center space-x-4 bg-[#e3f2fd] p-5">
-        <span className="text-lg  text-black flex items-center pl-5">
+      <div  className="xl:flex flex-row items-center space-x-4 xl:space-y-0 space-y-2 bg-[#e3f2fd] xl:p-5 p-3">
+        <span className="text-lg  text-black flex items-center xl:pl-5 pl-1">
           {" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const FifthSection = () => {
           <div
             tabIndex={0}
             role="button"
-            className="flex items-center justify-between bg-transparent border-1 border-gray-300 focus:border-blue-500 hover:border-blue-500 btn m-1 w-64 h-12"
+            className="flex items-center font-medium justify-between bg-transparent border-1 border-gray-300 focus:border-blue-500 hover:border-blue-500 btn m-1 xl:w-64 w-86 h-12"
           >
             বিভাগ{" "}
             <svg
@@ -84,7 +84,7 @@ const FifthSection = () => {
           <div
             tabIndex={0}
             role="button"
-            className="flex items-center bg-transparent border-1 border-gray-300 focus:border-blue-500 hover:border-blue-500 justify-between btn m-1 w-64 h-12" 
+            className="flex items-center font-medium bg-transparent border-1 border-gray-300 focus:border-blue-500 hover:border-blue-500 justify-between btn m-1 xl:w-64 w-86 h-12" 
           >
             জেলা{" "}
             <svg
@@ -120,7 +120,7 @@ const FifthSection = () => {
           <div
             tabIndex={0}
             role="button"
-            className="flex items-center bg-transparent border-1 border-gray-300 focus:border-blue-500 hover:border-blue-500 justify-between btn m-1 w-64 h-12"
+            className="flex items-center font-medium bg-transparent border-1 border-gray-300 focus:border-blue-500 hover:border-blue-500 justify-between btn m-1 xl:w-64 w-86 h-12"
           >
             উপজেলা{" "}
             <svg
@@ -152,7 +152,7 @@ const FifthSection = () => {
         </div>
 
 
-         <div className="text-base rounded-sm bg-[#0d47a1] flex items-center h-12  text-white hover:text-blue-700 px-6 font-semibold ">
+         <div className="text-base rounded-sm bg-[#0d47a1] flex items-center h-12  text-white hover:text-blue-700 xl:mx-0 mx-1.5 xl:px-6  px-33 font-semibold ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -173,15 +173,15 @@ const FifthSection = () => {
 
       <div className="grid grid-cols-12 gap-4 my-10">
         {/* left */}
-        <div className="col-span-4">
+        <div className="xl:col-span-4 col-span-12">
           <Left />
         </div>
         {/* middle */}
-        <div className="col-span-5">
+        <div className="xl:col-span-5 col-span-12">
           <Middle />
         </div>
         {/* right */}
-        <div className="col-span-3">
+        <div className="xl:col-span-3 col-span-12">
           <Right />
         </div>
       </div>

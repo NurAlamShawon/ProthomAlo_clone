@@ -2,15 +2,15 @@ import React from "react";
 
 const Right = () => {
   return (
-    <div>
+    <div className="xl:pl-4">
       {/* first */}
-      <div>
+      <div className="xl:border-t-0 border-gray-300 border-t-1 xl:pt-0 pt-6">
         <div className="flex items-start">
           <div className="space-y-3">
-            <p className="text-base font-bold text-gray-800 ">
+            <p className="text-base font-bold text-gray-800 hover:text-blue-700 ">
               ‘পাশের বাড়ির মেয়ে’ হতে চেয়েছিলেন লোপেজ
             </p>
-            <p className="text-sm text-gray-600">৪ ঘণ্টা আগে</p>
+            <p className="text-sm text-gray-400">৪ ঘণ্টা আগে</p>
           </div>
 
           <img
@@ -27,10 +27,10 @@ const Right = () => {
       <div className=" my-6">
         <div className="flex items-start">
           <div className="space-y-3">
-            <p className="text-base font-bold text-gray-800 ">
+            <p className="text-base font-bold text-gray-800 hover:text-blue-700 ">
               উত্তরায় সিনেমা–নাটকের শুটিং বন্ধে চিঠি, শিল্পীদের ক্ষোভ
             </p>
-            <p className="text-sm text-gray-600">৫ ঘণ্টা আগে</p>
+            <p className="text-sm text-gray-400">৫ ঘণ্টা আগে</p>
           </div>
 
           <img
@@ -47,11 +47,11 @@ const Right = () => {
       <div className=" my-6">
         <div className="flex items-start">
           <div className="space-y-3">
-            <p className="text-base font-bold text-gray-800 ">
+            <p className="text-base font-bold text-gray-800 hover:text-blue-700 ">
               জুলাইয়ে ইন্টারনেট বন্ধের কারণে মৃত্যুর আগে সন্তানদের সঙ্গে যোগাযোগ
               করতে পারেননি শাফিন
             </p>
-            <p className="text-sm text-gray-600">৬ ঘণ্টা আগে</p>
+            <p className="text-sm text-gray-400">৬ ঘণ্টা আগে</p>
           </div>
 
           <img

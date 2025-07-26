@@ -2,7 +2,7 @@ import React from "react";
 
 const Left = () => {
   return (
-    <div className="pr-4 border-r-2 border-gray-300 pb-24">
+    <div className="xl:pr-4 xl:border-r-2 border-gray-300 xl:pb-12">
       {/* first */}
       <div >
         <div className="flex items-start">

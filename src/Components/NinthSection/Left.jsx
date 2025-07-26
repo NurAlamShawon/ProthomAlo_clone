@@ -2,7 +2,7 @@ import React from "react";
 
 const Left = () => {
   return (
-    <div className="border-1 border-gray-600 p-7 relative" >
+    <div className="border-1 border-gray-600 p-7 xl:mx-0 mx-4 relative xl:mb-0 mb-4" >
        <p className=" absolute -left-5 text-xl space-y-2  text-white font-bold hover:text-[#ffb300] cursor-pointer">
                 <span className="text-[#ffb300] bg-[#001246] p-1">
                  মাইলস্টোন স্কুল ট্র্যাজেডি
