@@ -16,27 +16,44 @@ import ThirteenSection from "../Components/ThirteenSection/ThirteenSection";
 import FourteenSection from "../Components/FourteenSection";
 import Fifteen from "../Components/Fifteen/Fifteen";
 import SixteenSection from "../Components/SixteenSection";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
-    <div >
+    <div>
+      <Helmet>
+        <title>আজকের খবর | আজকের ব্রেকিং নিউজ বাংলাদেশ</title>
+        <meta
+          name="description"
+          content="বাংলাদেশ ও আন্তর্জাতিক রাজনীতির সর্বশেষ খবর পড়ুন প্রথম আলোতে।"
+        />
+        <meta property="og:title" content="রাজনীতি - প্রথম আলো" />
+        <meta
+          property="og:description"
+          content="বাংলাদেশ ও আন্তর্জাতিক রাজনীতির সর্বশেষ খবর পড়ুন প্রথম আলোতে।"
+        />
+        <meta
+          name="keywords"
+          content="রাজনীতি, বাংলাদেশ, খবর, নির্বাচন, দলীয় রাজনীতি"
+        />
+      </Helmet>
       <FirstSection />
       <SecondSection />
       <ThirdSection />
       <FourthSection />
-      <FifthSection/>
-      <SixthSection/>
-      <SeventhSection/>
-      <EigthSection/>
-      <NinthSection/>
-      <TenthSection/>
-      <AddSection/>
-      <ElevenSection/>
-      <TwelveSection/>
-      <ThirteenSection/>
-      <FourteenSection/>
-      <Fifteen/>
-      <SixteenSection/>
+      <FifthSection />
+      <SixthSection />
+      <SeventhSection />
+      <EigthSection />
+      <NinthSection />
+      <TenthSection />
+      <AddSection />
+      <ElevenSection />
+      <TwelveSection />
+      <ThirteenSection />
+      <FourteenSection />
+      <Fifteen />
+      <SixteenSection />
     </div>
   );
 };
