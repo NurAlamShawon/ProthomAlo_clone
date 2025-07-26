@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Navbar = () => {
   return (
@@ -7,12 +8,17 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto flex items-center xl:justify-between">
           <div className="xl:px-0 px-2">
             <ul className="flex items-center overflow-scroll xl:overflow-y-hidden xl:overflow-x-hidden w-70 xl:w-190">
-              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
-                সর্বশেষ
-              </li>
-              <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
-                রাজনীতি
-              </li>
+              <Link to="/">
+                <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                  সর্বশেষ
+                </li>
+              </Link>
+
+              <Link to="politics">
+                <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
+                  রাজনীতি
+                </li>
+              </Link>
               <li className="xl:text-sm text-[14px] text-black hover:text-blue-700 mr-4 font-semibold">
                 বাংলাদেশ
               </li>
@@ -134,7 +140,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto xl:hidden inline " >
+      <div className="max-w-7xl mx-auto xl:hidden inline ">
         <div className="pl-4 grid grid-cols-3 gap-1 py-4 bg-[#f7f7f7]">
           {/* first */}
           <div className="flex items-center pr-2 border-r-1 border-gray-400">
@@ -166,7 +172,7 @@ const Navbar = () => {
                 fill="#D60000"
               ></path>
             </svg>
-             <p className="text-xs">ভিডিও</p>
+            <p className="text-xs">ভিডিও</p>
           </div>
           {/* third */}
           <div className="flex items-center ">
@@ -182,7 +188,7 @@ const Navbar = () => {
                 fill="#D60000"
               ></path>
             </svg>
-             <p className="text-xs">ভিডিও</p>
+            <p className="text-xs">ভিডিও</p>
           </div>
         </div>
       </div>

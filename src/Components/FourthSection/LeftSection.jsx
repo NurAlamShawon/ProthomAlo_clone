@@ -3,8 +3,7 @@ import React from "react";
 const LeftSection = () => {
   return (
     <div className="xl:pr-4 relative">
-
-<div className="absolute xl:block hidden left-78 w-px h-208 bg-gray-500"></div>
+      <div className="absolute xl:block hidden left-78 w-px h-208 bg-gray-500"></div>
 
       <div className="pt-4 ">
         {/* name of each tab group should be unique */}
